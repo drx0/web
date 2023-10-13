@@ -1,0 +1,23 @@
+:root{
+    --font1: Arial, sans-serif, serif;
+}
+*{margin: 0;padding: 0;border: 0;outline: 0;max-width: 100%;box-sizing: border-box;font-family: var(--font1);}
+body{background: #edeef0;line-height: 1.6;padding: 0 8px;}
+li{list-style: none;}
+a{text-decoration: none;}
+button{cursor: pointer;}
+.e1{max-width: 780px;border-radius: 4px;overflow: hidden;box-shadow: 0 1px 0 0 #dce1e6, 0 0 0 1px #e7e8ec;background: #fff;margin: 50px auto;}
+.e2{background: #5e738b;color: #fff;padding: 17px 25px;display: flex;align-items: center;font: bold 18px var(--font1);word-break: break-all;}
+.e3{padding: 20px 20px 35px;text-align: center;}
+.e3 h2{font-size: 17px;margin: 8px 0;}
+.e3 p{font-size: 14px;}
+.e4{display: flex;flex-wrap: wrap;justify-content: center;padding: 24px 0 0;}
+.e4 li{min-width: 120px;max-width: 120px;margin: 0 12px;}
+.e4 a{transition: .15s ease-out;display: block;width: 100%;height: 146px;border-radius: 4px;display: flex;flex-direction: column;align-items: center;justify-content: center;color: #2a5885;}
+.e4 a:hover{background: #f0f2f5;}
+.e4 a span:last-child{font-weight: bold;font-size: 14px;}
+.e4 a span:first-child{background-image: url(../images/browsers.png);width: 80px;height: 80px;margin: 0 0 13px;}
+.atom{background-position: 0 -400px;}
+.chrome{background-position: 0 -160px;}
+.opera{background-position: 0 -240px;}
+.firefox{background-position: 0 -80px;}
